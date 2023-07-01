@@ -1,0 +1,50 @@
+@keyframes smokey{
+    from{
+        top: -70px;
+    }
+    to{
+        top: -40px;
+    }
+}
+
+body{
+    background-color: bisque;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    height: 1200px;
+    
+
+}
+.img{
+    height: 350px;
+    order: 1;
+    align-self: flex-end;
+    right: 500px;
+    position: absolute;
+    z-index: 2;
+}
+.coffee{
+    font-size: 150px;
+    position: absolute;
+    left: 300px;
+    bottom: 500px;
+}
+.smoke{
+    position: absolute;
+    height: 950px;
+    right: 750px;
+}
+
+.smokeanime{
+    animation-name: smokey;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+ 
+.pink{
+    background-color: rgb(220, 122, 233);
+}
